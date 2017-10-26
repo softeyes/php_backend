@@ -2,7 +2,68 @@ body {
   font-family: "Roboto", sans-serif;
   padding-top: 70px; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif; }
+
+.login {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px; }
+
+#login_div {
+  padding-top: 350px; }
+
+img {
+  top: 0;
+  left: 0;
+  position: absolute; }
+
+#login,
+#logout {
+  color: black; }
+
+#username,
+#password {
+  color: black; }
+
+button {
+  margin-top: 30px; }
+
+#inside {
+  margin-top: 20px; }
+
+.public_access {
+  color: white;
+  background-color: darkred;
+  border: solid;
+  border-color: white;
+  padding: 4px; }
+
+#aedirn {
+  position: relative;
+  display: inline;
+  margin-top: 0px; }
+
+#kaedwen {
+  position: relative;
+  display: inline;
+  margin-top: 0px; }
+
+#temeria {
+  position: relative;
+  display: inline; }
+
+#region_select {
+  margin-top: 250px; }
 
 /*# sourceMappingURL=style.css.map */

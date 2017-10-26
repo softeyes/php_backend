@@ -48,3 +48,10 @@ function logged_out (data) {
 function blow_up(data) {
     console.log('Inside blow_up');
 }
+
+/*// Region select hover function
+function region_hover(){
+    $(".region").find("#temeria").hover(function(){
+    $(this).fadeTo(500, 0.5);
+    });
+};*/

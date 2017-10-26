@@ -1,10 +1,6 @@
-line 14 (login.php) vesemir0e834165e96c6027b5d3f5b814ecf27c
-Line 24 in login.php, Undefined variable: result  (ErrorException)line 14 (login.php) vesemir0e834165e96c6027b5d3f5b814ecf27c
-Line 24 in login.php, Undefined variable: result  (ErrorException)line 14 (login.php) vesemir0e834165e96c6027b5d3f5b814ecf27c
-line 25 (login.php) user is registered
-line 14 (login.php) lambertd48748013e42e19a37c01071546646ee
-line 25 (login.php) user is registered
-line 14 (login.php) geralt1da2ec0f71a1ba52784483e1312c4816
+Line 10 in show_creatures.php, SQLSTATE[42S02]: Base table or view not found: 1146 Table 'creatures_db.creatures_list' doesn't exist  (PDOException)Line 7 in create_database.php, Undefined variable: admin  (ErrorException)Line 5 in delete_database.php, Undefined variable: admin  (ErrorException)Line 5 in show_databases.php, Undefined variable: admin  (ErrorException)Line 7 in create_entry.php, Undefined variable: admin  (ErrorException)Line 5 in delete_database.php, Undefined variable: admin  (ErrorException)Line 7 in create_database.php, Undefined variable: admin  (ErrorException)Line 5 in show_databases.php, Undefined variable: admin  (ErrorException)Line 5 in delete_database.php, Undefined variable: admin  (ErrorException)Line 7 in create_database.php, Undefined variable: admin  (ErrorException)Line 7 in create_entry.php, Undefined variable: admin  (ErrorException)line 14 (login.php) vesemir20ad484e1eb23fc868b5beea3daa9bc4
+Line 31 in login.php, Undefined property: PDO::$error  (ErrorException)line 14 (login.php) vesemir20ad484e1eb23fc868b5beea3daa9bc4
+Line 31 in login.php, Undefined property: PDO::$error  (ErrorException)line 14 (login.php) vesemir0e834165e96c6027b5d3f5b814ecf27c
 line 25 (login.php) user is registered
 line 14 (login.php) vesemir0e834165e96c6027b5d3f5b814ecf27c
 line 25 (login.php) user is registered

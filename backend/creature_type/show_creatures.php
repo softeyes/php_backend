@@ -5,7 +5,7 @@ require_once('../common/logger.php');
 
 $db = new DbConnect($app_user, $app_pass);
 
-$sql = "SELECT * FROM creatures_list";
+$sql = "SELECT * FROM updated_creature_list";
 
 $result = $db->conn->query($sql);
 
