@@ -22,7 +22,7 @@
 
     <?php include('partials/nav.php'); ?>
 
-    <?php include('partials/page2_region_select.php'); ?>
+    <?php include('partials/page2_region_select_for_public.php'); ?>
 
 
 </body>

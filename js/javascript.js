@@ -1,3 +1,5 @@
+/*global $,document,console */
+
 console.log('loaded');
 
 $(document).ready(setup);
@@ -7,6 +9,7 @@ function setup() {
     $('#inside').hide();
     $('#login').click(do_login);
     $('#logout').click(do_logout);
+    creatures_list();
 };
 
 function do_login () {
@@ -42,7 +45,7 @@ function do_logout () {
 function logged_out (data) {
     console.log('Inside logged_out');
     console.log(data);
-    window.location = 'index.php'; // redirect to home page
+    window.location = 'page1_landing_page.php'; // redirect to home page
 }
 
 function blow_up(data) {

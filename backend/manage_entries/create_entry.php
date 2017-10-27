@@ -6,13 +6,14 @@ sleep('1');
 
 $db = new DbConnect($admin, $pass);
 
-$user_name = $_GET['user_name'];
+$creature_id = $_GET['creature_id'];
+$creature_type = $_GET['creature_type'];
+$gender = $_GET['gender'];
+$last_known_location = $_GET['last_known_location'];
+$region_id = $_GET['region_id'];
 
-$password = $_GET['user_password'];
 
-logger($user_name.$password);
-
-$sql = "CREATE USER $user_name@'localhost' IDENTIFIED BY '$password'";
+$sql = "INSERT INTO updated_creature_list (creature_id, creature_type, gender, last_known_location, region_id) VALUES($creature_id, $creature_type, $gender, $last_known_location, $region_id);
 
 $result = $db->conn->query($sql);
 
@@ -22,4 +23,5 @@ if ($result){
 } else {
 	logger($db->conn->error());
 }
+
 

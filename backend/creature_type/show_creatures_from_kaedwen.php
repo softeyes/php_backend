@@ -5,7 +5,7 @@ require_once('../common/logger.php');
 
 $db = new DbConnect($app_user, $app_pass);
 
-$sql = "SELECT * FROM updated_creature_list";
+$sql = "SELECT * FROM updated_creature_list WHERE region_id = 'Kaedwen' limit 100";
 
 $result = $db->conn->query($sql);
 

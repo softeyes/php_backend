@@ -7,7 +7,7 @@
             <input type="password" id="password" placeholder="enter password">
             <button id="login">Login</button>
             <div id="message"></div><br>
-            <a href="../page2_for_public.php" class="public_access">Public Access</a>
+            <a href="page2_for_public.php" class="public_access">Public Access</a>
         </div>
 
         <div id="inside">
